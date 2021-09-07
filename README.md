@@ -1,2 +1,0 @@
-# Stocks-analysis
-Module2
