@@ -16,11 +16,15 @@ The client also requested formatting of the document to include "ease of read" f
 ## Results
 Refactoring the original code allows us to run the code more efficiently and in vastly less time, approximately 0.8 seconds less. An advantage is that we used loops within loops to gather data faster, whick allowed data to be output faster. A disadvantage is the refactored code required a bit more work to master but turned out to me more efficient. It is ease to make a mistake with looping, but more can be done with less code.
 
+Before the refactoring of the VBA Code, the runtimes were approximately 0.8 seconds higher:
+
 ![2017 initial analysis before the VBA Code was refactored](https://github.com/hmohabir/Stocks-analysis/blob/main/AllStocksAnalysis_2017.PNG)
 
 ![2018 initial analysis before the VBA Code was refactored](https://github.com/hmohabir/Stocks-analysis/blob/main/AllStocksAnalysis_2018.PNG)
 
-The stocks that were successful in 2017 were ENPH and RUN. 
+After refactoring, the runtimes dropped significantly: 
 ![2017 Analysis showing a smaller runtime with refactored code](https://github.com/hmohabir/Stocks-analysis/blob/main/VBA_Challenge_2017.png)
 
 ![2018 Analysis showing a smaller runtime with refactored code](https://github.com/hmohabir/Stocks-analysis/blob/main/VBA_Challenge_2018.png)
+
+The stocks that were successful in 2017 were ENPH and RUN. 
